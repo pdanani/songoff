@@ -1,8 +1,22 @@
-[
-    {
-        "scripts": {
-            "start": "cd client && npm start",
-            "server": "node server/index.js"
-        }
-    }
-]
+{
+  "name": "songoff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server/index.js",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdanani/songoff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdanani/songoff/issues"
+  },
+  "homepage": "https://github.com/pdanani/songoff#readme"
+}
