@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 
 
-const HomePage = () => {
+const SongList = () => {
     return (
         <h1>
             test
@@ -10,4 +10,4 @@ const HomePage = () => {
     )
 }
 
-export default HomePage
+export default SongList
