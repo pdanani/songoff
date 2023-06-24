@@ -20,8 +20,7 @@ cron.schedule('0 0 * * *', () => {
   fetchSongsFromSpotify()
     .then((songs) => {
       console.log('Fetched new songs:', songs);
-      // Update the songs data in your database or wherever you store it
-      // ...
+      // update db with current songs
     })
     .catch((error) => {
       console.error('Error fetching songs:', error);
