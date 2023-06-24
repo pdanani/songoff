@@ -1,0 +1,36 @@
+# Dependency directories
+/node_modules
+
+# Build output
+/build
+/dist
+
+# Environment variables file
+.env
+
+# IDE and editor files
+.idea
+.vscode
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Compiled binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cache files
+.cache
+.npm
+
+
