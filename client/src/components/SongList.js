@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react';
-
-
+import React from 'react';
+import { useQuery } from '@apollo/client';
+import { SongListContainer } from '../styles/SongListStyles';
 
 const SongList = () => {
+
     return (
-        <h1>
-            test
-        </h1>
-    )
+        <SongListContainer>
+            <h2>Song List</h2>
+        </SongListContainer>
+    );
 }
 
-export default SongList
+export default SongList;
