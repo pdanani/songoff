@@ -3,7 +3,7 @@ import { ApolloServer } from 'apollo-server-express';
 import { schema } from './schema/schema';
 import { resolvers } from './resolvers/resolvers';
 import cron from 'node-cron';
-import { fetchSongsFromSpotify } from './utils/spotify';
+import { fetchSongsFromSpotify } from './services/YoutubeAPI';
 
 const app = express();
 
