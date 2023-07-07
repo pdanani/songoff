@@ -6,12 +6,7 @@ const typeDefs = gql`
     title: String!
     artist: String!
   }
-  type Song{
-    videoID: String!
-    title: String!
-    artist: String
-  }
-
+  
   type Vote {
     id: ID!
     userId: Int!
