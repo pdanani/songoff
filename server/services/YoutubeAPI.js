@@ -15,8 +15,8 @@ export const fetchSongs = () => {
     .then((data) => {
       return data.items.map((item) => {
         const { videoId } = item.id;
-        const { title, channelTitle } = item.snippet;
-        return { videoId, title, channelTitle };
+        const { title, artist } = item.snippet;
+        return { videoId, title, artist };
       });
     });
 };
