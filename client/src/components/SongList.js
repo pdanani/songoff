@@ -1,6 +1,6 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
-import { SongListContainer } from '../styles/SongListStyles';
+import { SongListContainer } from '../styles/StyledComponents';
 import { GET_SONGS } from '../graphql/queries';
 
 const SongList = () => {
