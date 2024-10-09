@@ -1,9 +1,9 @@
 import React from 'react';
 import { useQuery } from '@apollo/client';
-import { GET_WINNER } from '../graphql/queries'; // Import the correct query
+import { GET_WINNER } from '../graphql/queries'; 
 
 const Winner = () => {
-  const { loading, error, data } = useQuery(GET_WINNER); // Use useQuery to fetch data
+  const { loading, error, data } = useQuery(GET_WINNER); 
 
   if (loading) {
     return <div>Loading winner...</div>;
